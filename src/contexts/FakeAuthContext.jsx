@@ -1,7 +1,7 @@
 import { createContext, useContext, useReducer } from 'react';
 
 const FAKE_USER = {
-  name: 'Jack',
+  name: 'Mostafa',
   email: 'jack@example.com',
   password: 'qwerty',
   avatar: 'https://i.pravatar.cc/100?u=zz',
@@ -38,7 +38,9 @@ function AuthProvider({ children }) {
     }
   }
 
-  function logout() {}
+  function logout() {
+    dispatch({ type: 'logout' });
+  }
   return (
     <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
