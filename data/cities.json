@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": "7169",
+      "cityName": "Giza",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-09-27T01:33:44.752Z",
+      "notes": "Army",
+      "position": {
+        "lat": "29.865228193217867",
+        "lng": "31.290307044982914"
+      }
+    },
+    {
+      "id": "0dea",
+      "cityName": "Markaz Bani Suwayf",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-09-27T01:37:43.329Z",
+      "notes": "jews",
+      "position": {
+        "lat": "28.998531814051795",
+        "lng": "31.552734375000004"
+      }
+    }
+  ]
+}
